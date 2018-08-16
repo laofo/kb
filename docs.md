@@ -1,10 +1,12 @@
 
 
-# CentOS 安装 nodejs
+### CentOS 安装 nodejs
+
 curl --silent --location https://rpm.nodesource.com/setup_9.x | bash - \
     && yum install -y nodejs
 
-# 安装 docsify
+### 安装 docsify
+
 ```
 npm i docsify-cli -g
 ```
